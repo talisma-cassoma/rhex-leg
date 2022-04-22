@@ -1,7 +1,7 @@
 # rhex-leg
-"The most important mechanical part of the robot is the leg", said GÖKHAN ORAL on his thesis in partial fulfillment of the requirements for the degree of Master of Science in Mechanical Engineering Department, Middle East Technical University
+  GÖKHAN ORAL: ``The most important mechanical part of the robot is the leg``
 
-## objetif :
+## OBJECTIF :
 create a mecanism for simulate rhex's leg.
 - rhex uses pc104 board to control the six legs, here i'm just interessed on simulating the legs mechanism, using the low level inteface of Rhexlib, this is why i'm using arduino on my experiences
     
