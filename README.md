@@ -38,7 +38,7 @@ first lets understand how the hardware used for test.
 
 lets just built a digital servo drive :)... Nah, i'll be using the Brushless DC Motor controller from<a href="https://github.com/mrkindustries/bldc.git"> Benjamin Vedder.</a>
 <p align= "center">
- <img src="http://vedder.se/wp-content/uploads/2015/01/PCB_Front.png" width="70%"/>
+ <img src="http://vedder.se/wp-content/uploads/2015/01/PCB_Front.png" width="30%"/><img src="http://vedder.se/wp-content/uploads/2015/01/pcb_on_longboard.jpg"  width="30"/>
 </p> 
 
 The software consists of a ChibiOS-project for the STM32F4 and a Qt-program to test and debug the hardware.
