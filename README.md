@@ -7,20 +7,24 @@ create a mecanism for simulate rhex's leg.
     
 
 ## MECHANINAL DESIGN 
+
 even if this repo tittle's rhex legs, the references <br>
 used here for rhex mechecanicals parts where based on X-RHex 
+
 <p align="center">
   <img src="images/XRHEX.png" width="33.3%"/> <img src="images/View_of_internal_electronics.png" width="35%"/>
 </p>
 
 ### LEG DESIGN AND MOTOR SELECTION 
-<p align="center">
-<img src="images/Exploded_view_of_the_motor_mounting_assembly.png" width="30%"/>
-<img src="images/A_disassembled_view_of_the_brushless_motor.png" width="30%"/>
-</p>
 
 the X-RHex version uses high-torque, <br>
 flat “pancake-style” brushless motors offered by Maxon Motors3.
+
+<p align="center">
+<img src="images/Exploded_view_of_the_motor_mounting_assembly.png" width="30%"/>
+<img src="images/A_disassembled_view_of_the_brushless_motor.png" width="27%"/>
+</p>
+
 
 ### CONTROL ELECTRONICS
 
@@ -40,5 +44,7 @@ lets just built a digital servo drive :)... Nah, i'll be using the Brushless DC 
 </p> 
 
 The software consists of a ChibiOS-project for the STM32F4 and a Qt-program to test and debug the hardware.
+
+### INTERFACE RHEX MOTOR CONTROLLERS WITH A USB-BASED SYSTEM
 
 ### POSITION-AROUND-VELOCITY CONTROLLER
