@@ -15,14 +15,12 @@ used here for rhex mechecanicals parts where based on X-RHex
 
 ### LEG DESIGN AND MOTOR SELECTION 
 <p align="center">
-<img src="images/Exploded_view_of_the_motor_mounting_assembly.png" width="50%"/>
+<img src="images/Exploded_view_of_the_motor_mounting_assembly.png" width="30%"/>
+<img src="images/A_disassembled_view_of_the_brushless_motor.png" width="30%"/>
 </p>
 
 the X-RHex version uses high-torque, <br>
 flat “pancake-style” brushless motors offered by Maxon Motors3.
-<p align="center">
-<img src="images/A_disassembled_view_of_the_brushless_motor.png" width="50%"/>
-</p>
 
 ### CONTROL ELECTRONICS
 
@@ -38,7 +36,7 @@ first lets understand how the hardware used for test.
 
 lets just built a digital servo drive :)... Nah, i'll be using the Brushless DC Motor controller from<a href="https://github.com/mrkindustries/bldc.git"> Benjamin Vedder.</a>
 <p align= "center">
- <img src="http://vedder.se/wp-content/uploads/2015/01/PCB_Front.png" width="30%"/><img src="http://vedder.se/wp-content/uploads/2015/01/pcb_on_longboard.jpg"  width="30%"/>
+ <img src="http://vedder.se/wp-content/uploads/2015/01/PCB_Front.png" width="30%"/> <img src="http://vedder.se/wp-content/uploads/2015/01/pcb_on_longboard.jpg"  width="30%"/>
 </p> 
 
 The software consists of a ChibiOS-project for the STM32F4 and a Qt-program to test and debug the hardware.
